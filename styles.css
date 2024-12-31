@@ -1,0 +1,49 @@
+/* General page styling */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Text container for centering content */
+#text-container {
+  text-align: center;
+}
+
+/* Initial state of text (hidden) */
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Styling for "Welcome To" */
+#welcome {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Styling for "Vocal" */
+#vocal {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Styling for "Giving Voices To AI" */
+#subtitle {
+  font-size: 1.5rem;
+}
